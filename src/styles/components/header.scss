@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10rem
+
+    
+
+
+}
+
+#links{
+    display: none
+}
+
+#menu:hover #links{
+    
+   list-style: none
+
+
+}
