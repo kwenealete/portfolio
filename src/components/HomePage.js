@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 class HomePage extends React.Component{
     
     state= {
@@ -15,7 +16,7 @@ class HomePage extends React.Component{
         return (
             <div>
                 <div>
-                    <h2>NOT YOUR <br></br>AVERAGE <br></br> SOFTWARE <br></br> DEVELOPER/ENGINEER</h2>
+                    <h2 id="me">NOT YOUR <br></br>AVERAGE <br></br> SOFTWARE <br></br> DEVELOPER/ENGINEER</h2>
                     <h3>Be prepared to transform your <i>ideas</i> into <em>reality</em> </h3>
                 </div>
                 <button onClick={this.showPage} > </button>

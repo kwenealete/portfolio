@@ -1,21 +1,20 @@
 .header{
     display: flex;
+    justify-content: flex-end;
+    
+    margin-top: 2rem
+}
+
+
+.links{
+    text-decoration-line: none;
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-right: 10rem
+    color: blue;
+    width:10%
 
     
-
-
-}
-
-#links{
-    display: none
-}
-
-#menu:hover #links{
     
-   list-style: none
-
-
 }
+
+

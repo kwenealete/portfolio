@@ -4,17 +4,13 @@ import { NavLink, } from 'react-router-dom'
 const Header = () => (
   
      <header className="header" >
-      <h2 id="myName" >Monya Kwene Alete</h2>
-      <div id="menu" >
-        <div id="links" >
-          <NavLink to="/" activeClassName ="is-active" exact={true} >Home Page</NavLink>
-          <NavLink to="/portfolio" activeClassName ="is-active" exact={true} >My portfolio</NavLink>
-          <NavLink to="/contact" activeClassName ="is-active">Contact Me</NavLink>  
-          <NavLink to="/about" activeClassName="is-active" >About Me</NavLink></div> 
-        menu
-          </div>
+     {/* <img src="/home/hyf/Desktop/react-course-project/portfolio/public/pics/alete.jpg" alt="alete" ></img>
+       */}
       
-      
+          <NavLink className="links" to="/" activeClassName ="is-active" exact={true} >Home Page</NavLink>
+          <NavLink className="links" to="/portfolio" activeClassName ="is-active" exact={true} >My portfolio</NavLink>
+          <NavLink className="links" to="/contact" activeClassName ="is-active">Contact Me</NavLink>  
+          <NavLink className="links" to="/about" activeClassName="is-active" >About Me</NavLink> 
      </header>
      
   )
